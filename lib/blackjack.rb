@@ -48,6 +48,7 @@ def hit?(current_card_value)
     current_card_value += deal_card
   end
   return current_card_value
+  building.pry
 end
 
 def invalid_command
